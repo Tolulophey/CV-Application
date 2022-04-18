@@ -1,0 +1,39 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgba(214, 22, 22, 0.808);
+}
+.generalInfo{
+    height: 150;
+    background-color: rgba(10, 226, 226, 0.288);
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+}
+.name{
+    width: 40%;
+    float: left;
+    padding: 20px 50px;
+}
+.details{
+    padding: 10px;
+    margin: 1px solid black;
+    text-align: left;
+    font-weight: bolder;
+}
+.clear{
+    clear: both;
+}
+.leftpad{
+    padding-left: 50px;
+}
+.education{
+    padding: 10px 0px 10px 20px;
+    font-weight: bold;
+}
+.experience{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
