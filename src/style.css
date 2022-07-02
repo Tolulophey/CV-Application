@@ -1,26 +1,33 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
 h2{
     color: rgba(214, 22, 22, 0.808);
 }
-.generalInfo{
-    height: 150;
-    background-color: rgba(10, 226, 226, 0.288);
-    text-align: center;
-    padding: 10px 0;
+.about{
+    height: auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 226, 226, 0.288);
+    padding: 10px 0;
 }
-.name{
-    width: 40%;
-    float: left;
-    padding: 20px 50px;
-}
+
 .details{
-    padding: 10px;
-    margin: 1px solid black;
-    text-align: left;
+    display: flex;
+    /* flex-direction: column; */
     font-weight: bolder;
+    flex-direction: column;
+    justify-content: center;
+}
+.grey{
+    color: gray;
+    font-size: small;
+    font-weight: lighter;
+    margin-bottom: 10px;
 }
 .clear{
     clear: both;

@@ -1,17 +1,21 @@
 import React from 'react';
-import './components.css';
+import '../style.css';
 
 function generalInfo() {
   return (
     <div className='generalInfo'>
-        <h1 className='name'>AMOLE Tolulope</h1>
+        <div className="about">
+          <h1 className='name'>AMOLE Tolulope</h1>
         <div className='details'>
-            <p>Phone number:</p>
-            <p>08063673201</p>
-            <p>Email:</p>
-            <p>amoletolulope@gmail.com</p>
+            <p>Phone number</p>
+            <span className='grey'>08063673201</span>
+            <p>Email</p>
+            <span className='grey'>amoletolulope@gmail.com</span>
         </div>
-        <div className='clear'></div>
+        </div>
+        <div className="summary">
+          <h2>Summary</h2>
+        </div>
     </div>
   )
 }
